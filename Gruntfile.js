@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         }
     });
 
-	grunt.loadNpmTasks('grunt-mocha-phantomjs');
+    grunt.loadNpmTasks('grunt-mocha-phantomjs');
 
-	grunt.registerTask('test', ['mocha_phantomjs']);
+    grunt.registerTask('test', ['mocha_phantomjs']);
 };
