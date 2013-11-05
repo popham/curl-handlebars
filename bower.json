@@ -1,0 +1,33 @@
+{
+  "name": "curl-ehbs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jsedlacek/curl-ehbs",
+  "authors": [
+    "Jakub Sedlacek"
+  ],
+  "description": "Ember Handlebars plugin for curl.js",
+  "main": "src/ehbs.js",
+  "keywords": [
+    "curl",
+    "amd",
+    "plugin",
+    "ember",
+    "handlebars"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "curl": "~0.8.4",
+    "ember": "~1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  }
+}
