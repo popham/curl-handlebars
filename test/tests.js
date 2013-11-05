@@ -30,4 +30,24 @@ define(['mocha', 'chai'], function(mocha, chai) {
 
 		});
 	});
+
+	describe('handlebars plugin', function(){
+		describe('load handlebars template', function(){
+			it('should be in returned from curl', function(done){
+				curl(['hbs!template'], function(template) {
+					assert.isFunction(template);
+					done();
+				});
+			});
+
+			it('should render html', function(done){
+				curl(['hbs!template'], function(template) {
+					assert.equal(template(), "<h1>Title</h1>");
+					done();
+				});
+			});
+
+		});
+	});
+
 });

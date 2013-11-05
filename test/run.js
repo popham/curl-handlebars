@@ -37,6 +37,10 @@ curl({
         "ehbs": {
             "location": "../src",
             "main": "ehbs.js"
+        },
+        "hbs": {
+            "location": "../src",
+            "main": "hbs.js"
         }
     },
     "paths": {
