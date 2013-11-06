@@ -1,7 +1,7 @@
 {
-  "name": "curl-ehbs",
+  "name": "curl-handlebars",
   "version": "0.0.0",
-  "description": "Ember Handlebars plugin for curl.js",
+  "description": "Handlebars plugin for curl.js",
   "main": "Gruntfile.js",
   "directories": {
     "test": "test"
@@ -10,7 +10,6 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-mocha-phantomjs": "~0.3.1",
-    "ember-template-compiler": "~1.1.2",
     "handlebars": "~1.1.2",
     "grunt-replace": "~0.5.1",
     "grunt-exec": "~0.4.2",
@@ -22,18 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsedlacek/curl-ehbs.git"
+    "url": "git://github.com/jsedlacek/curl-handlebars.git"
   },
   "keywords": [
     "curl",
     "amd",
     "plugin",
-    "ember",
     "handlebars"
   ],
   "author": "Jakub Sedlacek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsedlacek/curl-ehbs/issues"
+    "url": "https://github.com/jsedlacek/curl-handlebars/issues"
   }
 }
