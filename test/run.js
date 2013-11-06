@@ -21,19 +21,6 @@ curl({
                 "loader": "curl/loader/legacy"
             }
         },
-        "chai": {
-            "location": "../bower_components/chai",
-            "main": "chai.js"
-        },
-        "mocha": {
-            "location": "../bower_components/mocha",
-            "main": "mocha.js",
-            "config": {
-                "exports": "mocha",
-                "loader": "curl/loader/legacy",
-                "requires": ["css!mocha/mocha"]
-            }
-        },
         "ehbs": {
             "location": "../src",
             "main": "ehbs.js"
@@ -41,13 +28,15 @@ curl({
         "hbs": {
             "location": "../src",
             "main": "hbs.js"
+        },
+        "test" : {
+            "location": "."
         }
     },
     "paths": {
         "jquery": "../bower_components/jquery/jquery.js"
     },
-    "main": 'tests'
-}, ["mocha"], function(mocha) {
+}, ["test/hbs", "test/ehbs"], function() {
     if (window.mochaPhantomJS) {
         mochaPhantomJS.run();
     }

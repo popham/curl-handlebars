@@ -11,6 +11,7 @@ define(['curl/plugin/_fetchText'], function (fetchText) {
                     callback(result);
                 });
             }, callback.error || error);
-        }
+        },
+        cramPlugin: './hbs-cram'
     };
 });

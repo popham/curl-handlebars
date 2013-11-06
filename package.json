@@ -9,7 +9,13 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-mocha-phantomjs": "~0.3.1"
+    "grunt-mocha-phantomjs": "~0.3.1",
+    "ember-template-compiler": "~1.1.2",
+    "handlebars": "~1.1.2",
+    "grunt-replace": "~0.5.1",
+    "grunt-exec": "~0.4.2",
+    "cram": "~0.7.7",
+    "grunt-contrib-clean": "~0.5.0"
   },
   "scripts": {
     "test": "test"
