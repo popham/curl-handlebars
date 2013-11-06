@@ -2,12 +2,12 @@ language: node_js
 node_js:
   - "0.10"
 install:
+- "npm install -g bower"
+- "npm install -g grunt-cli"
 - "npm install"
 - "cd node_modules/cram/"
 - "bower install"
 - "cd -"
-- "npm install -g bower"
-- "npm install -g grunt-cli"
 - "bower install"
 script:
 - "grunt test"
