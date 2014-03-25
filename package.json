@@ -1,6 +1,6 @@
 {
   "name": "curl-handlebars",
-  "version": "0.0.0",
+  "version": "0.0.1.1",
   "description": "Handlebars plugin for curl.js",
   "main": "Gruntfile.js",
   "directories": {
