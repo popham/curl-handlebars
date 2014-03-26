@@ -1,4 +1,4 @@
-define(['curl/plugin/fetchText'], function (fetchText) {
+define(['curl/plugin/_fetchText'], function (fetchText) {
     function error (ex) {
         throw ex;
     }
